@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class starField : MonoBehaviour {
+public class asteroidGenerator : MonoBehaviour {
 
 	new bool isPlaying;
-	public Rigidbody2D starPrefab;
+	public Rigidbody2D asteroidPrefab;
 	int x;
 	int y;
-	int starDelay;
+	int asteroidDelay;
 
 	// Use this for initialization
 	void Start () {
@@ -17,16 +17,17 @@ public class starField : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (starDelay < 0) {
+		if (asteroidDelay < 0) {
 			if (isPlaying == true) {
-				starDelay = 30;
+				asteroidDelay = Random.Range (300, 600);
 				x = UnityEngine.Random.Range (-51, 54);
-				Object starClone;
-				starClone = Instantiate (starPrefab, new Vector3 (x, y, 0), new Quaternion (0, 0, 0, 0));
+				Object asteroidClone;
+				asteroidClone = Instantiate (asteroidPrefab, new Vector2 (x, y), new Quaternion (0, 0, 0, 0));
+
 			}
 		} 
 		else {
-			starDelay--;
+			asteroidDelay--;
 		}
 	}
 }
