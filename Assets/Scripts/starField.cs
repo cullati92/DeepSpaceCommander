@@ -22,7 +22,7 @@ public class starField : MonoBehaviour {
 				starDelay = 30;
 				x = UnityEngine.Random.Range (-51, 54);
 				Object starClone;
-				starClone = Instantiate (starPrefab, new Vector3 (x, y, 0), new Quaternion (0, 0, 0, 0));
+				starClone = Instantiate (starPrefab, new Vector3 (x, y, 2), new Quaternion (0, 0, 0, 0));
 			}
 		} 
 		else {

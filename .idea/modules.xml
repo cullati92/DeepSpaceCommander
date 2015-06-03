@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assets/Plugins/Android/GoogleMobileAdsPlugin/GoogleMobileAdsPlugin.iml" filepath="$PROJECT_DIR$/Assets/Plugins/Android/GoogleMobileAdsPlugin/GoogleMobileAdsPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assets/Plugins/Android/unityads/unityads.iml" filepath="$PROJECT_DIR$/Assets/Plugins/Android/unityads/unityads.iml" />
+    </modules>
+  </component>
+</project>

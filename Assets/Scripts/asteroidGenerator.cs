@@ -7,7 +7,7 @@ public class asteroidGenerator : MonoBehaviour {
 	public Rigidbody2D asteroidPrefab;
 	int x;
 	int y;
-	int asteroidDelay;
+	int asteroidDelay = 1000;
 
 	// Use this for initialization
 	void Start () {
