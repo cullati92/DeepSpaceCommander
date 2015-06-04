@@ -3,3 +3,8 @@ Library/
 Obj/
 UnityGenerated/
 *.keystore
+*.csproj
+*.unityproj
+ProjectSettings/ProjectSettings.asset
+deepSpaceCommander.userprefs
+*.sln
