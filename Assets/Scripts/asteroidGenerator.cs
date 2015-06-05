@@ -20,7 +20,7 @@ public class asteroidGenerator : MonoBehaviour {
 		if (asteroidDelay < 0) {
 			if (isPlaying == true) {
 				asteroidDelay = Random.Range (300, 600);
-				x = UnityEngine.Random.Range (-51, 54);
+				x = UnityEngine.Random.Range (-44, 44);
 				Object asteroidClone;
 				asteroidClone = Instantiate (asteroidPrefab, new Vector2 (x, y), new Quaternion (0, 0, 0, 0));
 
